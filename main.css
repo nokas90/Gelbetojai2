@@ -12,8 +12,72 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Lora, "Times New Roman", Times, serif;
 }
 
+#hero {
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  background-image: url('https://images.unsplash.com/photo-1654053285059-e21f6d8fb21e?auto=format&fit=crop&q=80&w=3774&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-size: cover;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 400px; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero > h1, p {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.hero > h1 {
+  margin: 0;
+}
+
+.hero > p {
+  line-height: 150%;
+}
+
+.hero > div {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.hero > div > button {
+  font-weight: 800;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.hero > div > button:first-of-type{
+  background-color: rgb(104, 141, 197);
+  color: white;
+}
+
+.hero > div > button:last-of-type{
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 @media (min-width: 768px){
   body {
     
   }
 }
+
