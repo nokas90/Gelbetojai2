@@ -17,15 +17,16 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: flex-end;
   background-image: url('https://images.unsplash.com/photo-1654053285059-e21f6d8fb21e?auto=format&fit=crop&q=80&w=3774&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
 }
 
 #hero::before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 400px; 
+  height: 450px; 
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
 }
 
@@ -44,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero > h1 {
   margin: 0;
+}
+
+.hero > h1 > span {
+  color: rgb(99, 135, 190);
 }
 
 .hero > p {
@@ -65,12 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero > div > button:first-of-type{
-  background-color: rgb(104, 141, 197);
-  color: white;
-}
+    background: linear-gradient(to bottom left, rgb(112, 154, 212),  rgb(0, 52, 141));
+    color: white;
+  }
 
 .hero > div > button:last-of-type{
-  border: 2px solid white;
+  border: 2px solid rgb(88, 133, 197);
   color: white;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -78,6 +83,66 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 768px){
   body {
     
+  }
+
+  #hero {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/663573/pexels-photo-663573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+  }
+
+  #hero::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 700px; 
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.527));
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    margin-left: 25px;
+  }
+
+  .hero > h1, p {
+    text-align:left;
+    color: white;
+    z-index: none;
+  }
+
+  .hero > h1 {
+    margin: 0;
+    font-size: 74px;
+    color: white;
+  }
+
+  .hero > div {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .hero > div > button:first-of-type{
+    background: linear-gradient(to bottom left, rgb(112, 154, 212),  rgb(0, 52, 141));
+    color: white;
+  }
+
+  .hero > div > button:last-of-type{
+    border: 2px solid rgb(88, 133, 197);
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .hero > h1 > span {
+    color: rgb(84, 128, 193);
   }
 }
 
