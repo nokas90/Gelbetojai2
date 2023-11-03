@@ -21,6 +21,7 @@ export default class StraipsniuKorteles{
         const button = document.createElement('button');
         const buttonText = document.createTextNode('SKAITYTI DAUGIAU');
         button.appendChild(buttonText);
+        button.setAttribute('id', this.props.id);
 
         div.append(image, header, paragraph, button);
 
