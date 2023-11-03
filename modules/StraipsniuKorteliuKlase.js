@@ -11,7 +11,7 @@ export default class StraipsniuKorteles{
         image.setAttribute('src', this.props.image);
 
         const header = document.createElement('h3');
-        const headerText = document.createTextNode(this.props.straipsnis.header);
+        const headerText = document.createTextNode(this.props.header);
         header.appendChild(headerText);
 
         const paragraph = document.createElement('p');
