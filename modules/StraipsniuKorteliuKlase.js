@@ -23,8 +23,15 @@ export default class StraipsniuKorteles{
         button.appendChild(buttonText);
         button.setAttribute('id', this.props.id);
 
+        button.addEventListener('click', () => this.openNewArticle(this.props));
+
         div.append(image, header, paragraph, button);
 
         return div;
+    }
+    openNewArticle(props){
+        const he = localStorage.setItem('pasiulymas', JSON.stringify(props));
+        window.location.href = "../straipsniuPuslapiai/pirmasStraipsnis.html";
+        // console.log(he);
     }
 }
