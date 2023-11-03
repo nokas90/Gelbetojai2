@@ -12,6 +12,61 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Lora, "Times New Roman", Times, serif;
 }
 
+header {
+  /* position: relative; */
+  height: 200px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+nav#menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.prisijungti ul{
+  display: flex;
+  gap: 5px
+
+}
+
+button#parama{
+
+  position: fixed;
+}
+
+.menu  {
+  display: none;
+}
+
+.prisijungti ul > li:nth-child(1){
+  /* background-color: red; */
+  display: none;
+}
+
+.prisijungti ul > li:nth-child(2){
+  /* background-color: red; */
+  display: none;
+}
+
+.prisijungti > ul > li {
+  list-style-type: none;
+}
+
+
+#menu .prisijungti > li {
+}
+
+#menu .prisijungti a {
+  text-decoration: none;
+}
+
+
+
+
 /* Hero Page CSS dalis */
 #hero {
   height: 600px;
@@ -88,71 +143,4 @@ h1, h2, h3, h4, h5, h6 {
   body {
     
   }
-
-  /* Hero Page CSS dalis */
-  #hero {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    background-image: url('https://images.pexels.com/photos/663573/pexels-photo-663573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    justify-content: flex-start;
-  }
-
-  #hero::before {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 700px; 
-    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.527));
-  }
-
-  .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    margin-left: 25px;
-  }
-
-  .hero > h1, p {
-    text-align:left;
-    color: white;
-    z-index: none;
-  }
-
-  .hero > h1 {
-    margin: 0;
-    font-size: 5vw;
-    color: white;
-  }
-
-  .hero > div {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-  }
-
-  .hero > div > button:first-of-type{
-    background: linear-gradient(to bottom left, rgb(112, 154, 212),  rgb(0, 52, 141));
-    color: white;
-  }
-
-  .hero > div > button:last-of-type{
-    border: 2px solid rgb(88, 133, 197);
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-  .hero > div > button:hover {
-    transform: scale(1.10);
-  }
-
-  .hero > h1 > span {
-    color: rgb(84, 128, 193);
-  }
-  /* Hero Page CSS dalies pabaiga */
 }
-
