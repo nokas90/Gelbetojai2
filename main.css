@@ -13,23 +13,72 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  height: 130px;
+  /* position: relative; */
+  height: 200px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+
+}
+
+nav#menu{
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+}
+
+.prisijungti ul{
+  display: flex;
+  gap: 5px
+
+}
+
+button#parama{
+
+  position: fixed;
 }
 
 .menu  {
   display: none;
 }
 
-.prisijungti > li {
+.prisijungti ul > li:nth-child(1){
+  /* background-color: red; */
+  display: none;
+}
+
+.prisijungti ul > li:nth-child(2){
+  /* background-color: red; */
+  display: none;
+}
+
+.prisijungti > ul > li {
   list-style-type: none;
 }
 
 
+#menu .prisijungti > li {
+}
+
+#menu .prisijungti a {
+  text-decoration: none;
+}
+
+
+
 
 @media (min-width: 768px){
+
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #burger {
+    display: none;
+  }
+
   #logo {
     font-size: 1.4;
     font-weight: 600;
@@ -38,13 +87,13 @@ header {
   }
   
   .menu {
-    display: inline;
+    display: initial;
   }
   
-  #menu {
+  nav#menu{
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
   }
   
   #menu ul {
@@ -91,6 +140,16 @@ header {
   #menu > .prisijungti > ul > li:nth-child(1) > a{
     font-size: 0.4rem;
     /* background-color: yellow; */
+  }
+
+  .prisijungti ul > li:nth-child(1){
+    /* background-color: red; */
+    display: initial;
+  }
+  
+  .prisijungti ul > li:nth-child(2){
+    /* background-color: red; */
+    display: initial;
   }
 }
 
