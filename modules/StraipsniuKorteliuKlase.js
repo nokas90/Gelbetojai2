@@ -31,7 +31,7 @@ export default class StraipsniuKorteles{
     }
     openNewArticle(props){
         const he = localStorage.setItem('pasiulymas', JSON.stringify(props));
-        window.location.href = "../straipsniuPuslapiai/pirmasStraipsnis.html";
+        window.location.href = "./straipsniuPuslapiai/pirmasStraipsnis.html";
         // console.log(he);
     }
 }
