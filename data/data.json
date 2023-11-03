@@ -1,15 +1,6 @@
 {
   "beglobiai": [
     {
-      "id": 1,
-      "vardas": "Reksas",
-      "amzius": 6,
-      "lytis": "patinėlis",
-      "veisle": "vokiečių aviganis",
-      "kastruotas": true,
-      "nuotrauka": "https://penktakoja.lt/wp-content/uploads/2023/10/aiza-2-680x920.jpg",
-      "aprasymas": "Labai draugiškas, žaismingas, laukiantis naujų šeimininkų"
-    },{
       "id": 2,
       "vardas": "Balis",
       "amzius": 1,
@@ -18,7 +9,8 @@
       "kastruotas": false,
       "nuotrauka": "https://www.akc.org/wp-content/uploads/2017/11/Danish-Swedish-Farmdog-standing-outdoors-at-dusk.jpg",
       "aprasymas": "Labai draugiškas, žaismingas, laukiantis naujų šeimininkų"
-    },{
+    },
+    {
       "id": 3,
       "vardas": "Liūtė",
       "amzius": 4,
@@ -27,7 +19,8 @@
       "kastruotas": true,
       "nuotrauka": "https://hips.hearstapps.com/hmg-prod/images/walking-dog-royalty-free-image-1686677018.jpg",
       "aprasymas": "Labai draugiška, žaisminga, laukianti naujų šeimininkų"
-    },{
+    },
+    {
       "id": 4,
       "vardas": "Arčis",
       "amzius": 5,
@@ -36,7 +29,8 @@
       "kastruotas": false,
       "nuotrauka": "https://upload.wikimedia.org/wikipedia/commons/f/f4/MiniDachshund1_wb.jpg",
       "aprasymas": "Labai draugiškas, žaismingas, laukiantis naujų šeimininkų"
-    },{
+    },
+    {
       "id": 5,
       "vardas": "Amberis",
       "amzius": 8,
@@ -45,7 +39,8 @@
       "kastruotas": true,
       "nuotrauka": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/labrador-retriever-dog-breed-info.jpeg",
       "aprasymas": "Labai draugiškas, žaismingas, laukiantis naujų šeimininkų"
-    },{
+    },
+    {
       "id": 6,
       "vardas": "Džeta",
       "amzius": 12,
@@ -54,7 +49,8 @@
       "kastruotas": true,
       "nuotrauka": "https://penktakoja.lt/wp-content/uploads/2023/10/dzeta-1-680x920.jpg",
       "aprasymas": "Labai draugiška, žaisminga, laukianti naujų šeimininkų"
-    },{
+    },
+    {
       "id": 7,
       "vardas": "Varlius",
       "amzius": 6,
@@ -63,7 +59,8 @@
       "kastruotas": true,
       "nuotrauka": "https://www.katinosvajone.lt/wp-content/uploads/2023/10/20230829_174055-1-scaled-600x800-c-center.jpg",
       "aprasymas": "Žaismingas, daro dėžutėje"
-    },{
+    },
+    {
       "id": 8,
       "vardas": "Katė",
       "amzius": 2,
@@ -72,7 +69,8 @@
       "kastruotas": true,
       "nuotrauka": "https://www.katinosvajone.lt/wp-content/uploads/2023/10/396081318_298481109735732_4701508289064941221_n-600x800-c-center.jpg",
       "aprasymas": "Labai draugiška, žaisminga, laukianti naujų šeimininkų"
-    },{
+    },
+    {
       "id": 9,
       "vardas": "Riešutas",
       "amzius": 10,
@@ -81,7 +79,8 @@
       "kastruotas": true,
       "nuotrauka": "https://www.katinosvajone.lt/wp-content/uploads/2023/10/20231016_165513-scaled-600x800-c-center.jpg",
       "aprasymas": "Riešutas jau garbaus amžiaus katinas, turintis gerą charakterį ir laukiantis naujų šeimininkų, kurie jį priims į savo namus"
-    },{
+    },
+    {
       "id": 10,
       "vardas": "Meilė",
       "amzius": 3,
@@ -90,7 +89,8 @@
       "kastruotas": true,
       "nuotrauka": "https://www.katinosvajone.lt/wp-content/uploads/2023/10/20231016_174314-scaled-600x800-c-center.jpg",
       "aprasymas": "Labai draugiška, žaisminga, laukianti naujų šeimininkų"
-    },{
+    },
+    {
       "id": 11,
       "vardas": "Kipras",
       "amzius": 6,
@@ -99,7 +99,8 @@
       "kastruotas": true,
       "nuotrauka": "https://www.katinosvajone.lt/wp-content/uploads/2023/10/20231016_171815-scaled-600x800-c-center.jpg",
       "aprasymas": "Vis klausiate, ar turime kačiukų. O turime net visą vaikų kambarėlį, kuriame iš mažų mažiausiasis – Kipras. Jaukiai glaudžiasi prie šono vyresnėliams, paimtas ant rankų mėgaujasi žmogaus kūno šiluma ir paglostymais, susidomėjęs stebi kitų kačiukų šėliones ir nejučia į žaidimus įsitraukia ir pats."
-    },{
+    },
+    {
       "id": 12,
       "vardas": "Anela",
       "amzius": 1,
@@ -108,6 +109,22 @@
       "kastruotas": true,
       "nuotrauka": "https://www.katinosvajone.lt/wp-content/uploads/2023/10/20231016_170128-scaled-600x800-c-center.jpg",
       "aprasymas": "Nepavargstame girti Anelą, kokia ji nuostabi. Ji ne tik švelni, kantri ir rūpestinga mama savo dukrytei rainiukei Milikai, bet ir dėmesinga, lipšni draugė žmogui."
+    },
+    {
+      "id": 1698840395216,
+      "vardas": "Chaosas",
+      "amzius": 4,
+      "lytis": "patinėlis",
+      "veisle": "mišrūnas",
+      "kastruotas": true,
+      "nuotrauka": "https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=656,fit=crop/cdn-ecommerce/store_01G35S5S2996DK60C9P4RR0NVT%2Fassets%2F1688478879040-DSCF3227.jpg",
+      "aprasymas": "Prieš žiemos šventes prie Rokantiškių kapinių buvo rastas ir mums atvežtas haskio mišrūnas. Iš pradžių galvojome, kad jis kliūdytas automobilio, bet jo bėdos pasirodo kur kas rimtesnės nei buvo manyta. Deja, bet šeimininkai taip ir neatsirado, tad visas rūpestis taip ir liko mums."
+    }
+  ],
+  "administrator": [
+    {
+      "login": "admin",
+      "password": "admin"
     }
   ]
 }

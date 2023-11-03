@@ -33,7 +33,7 @@ export default class BreedClass{
     const vardasText = document.createTextNode(`Vardas: ${this.props.vardas}`);
     vardas.appendChild(vardasText);
     const amzius = document.createElement('p');
-    const amziusText = document.createTextNode(`Amžius: ${this.props.amzius} metų(-ai)`);
+    const amziusText = document.createTextNode(`Amžius: ${this.props.amzius} ${this.props.amzius <= 9 ? 'metai' : 'metų'}`);
     amzius.appendChild(amziusText);
     const lytis = document.createElement('p');
     const lytisText = document.createTextNode(`Lytis: ${this.props.lytis}`);
