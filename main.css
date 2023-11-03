@@ -78,9 +78,7 @@ font-size: 0.6em;
 }
 /* straipsniu ir naujienlaiskio pabaiga*/
 @media (min-width: 768px){
-  body {
-    
-  }
+
   /* straipsniu ir naujienlaiskio pradzia*/
   #straipsniai{
     display: flex;
@@ -88,7 +86,7 @@ font-size: 0.6em;
     flex-wrap: wrap;
   }
   .straipsnioKortele{
-    width: 44%;
+    width: 23%;
   } 
   #naujienlaiskis{
     display: flex;
