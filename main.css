@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Lora, "Times New Roman", Times, serif;
 }
 
+/* Hero Page CSS dalis */
 #hero {
   height: 600px;
   display: flex;
@@ -81,11 +82,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0);
 }
 
+/* Hero Page CSS dalies pabaiga */
+
 @media (min-width: 768px){
   body {
     
   }
 
+  /* Hero Page CSS dalis */
   #hero {
     height: 700px;
     display: flex;
@@ -149,5 +153,6 @@ h1, h2, h3, h4, h5, h6 {
   .hero > h1 > span {
     color: rgb(84, 128, 193);
   }
+  /* Hero Page CSS dalies pabaiga */
 }
 
