@@ -11,7 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Lora, "Times New Roman", Times, serif;
 }
-
+/* Headerio CSS Mobile START*/
 header {
   /* position: relative; */
   height: 70px;
@@ -69,11 +69,11 @@ button#parama{
   line-height: 1.6;
   text-align: center;
 }
-
+/* Headerio CSS Mobile END*/
 
 
 @media (min-width: 768px){
-
+  /* Headerio CSS Desktop START*/
   header{
     display: flex;
     align-items: center;
@@ -154,4 +154,5 @@ button#parama{
   .prisijungti ul > li:nth-child(2){
     display: initial;
   }
+  /* Headerio CSS Desktop END*/
 }
