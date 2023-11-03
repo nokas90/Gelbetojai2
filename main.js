@@ -17,3 +17,4 @@ fetch(`http://localhost:3000/straipsnis`)
     document.querySelector('#straipsniai').appendChild(naujasStraipsnis);
   });
 });
+

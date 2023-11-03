@@ -11,7 +11,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Lora, "Times New Roman", Times, serif;
 }
-
+/* straipsniu ir naujienlaiskio pradzia*/
 #straipsniai{
   display: flex;
   flex-direction: column;
@@ -76,11 +76,12 @@ font-size: 0.6em;
   color: grey;
   font-size: 10px;
 }
-
+/* straipsniu ir naujienlaiskio pabaiga*/
 @media (min-width: 768px){
   body {
     
   }
+  /* straipsniu ir naujienlaiskio pradzia*/
   #straipsniai{
     display: flex;
     flex-direction: row;
@@ -97,10 +98,5 @@ font-size: 0.6em;
   #naujienlaiskis > div{
    width: 300px;
   }
-}
-
-@media (min-width: 1024px){
-  .straipsnioKortele{
-    width: 23%;
-  } 
+  /* straipsniu ir naujienlaiskio pabaiga*/
 }
