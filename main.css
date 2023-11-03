@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   /* position: relative; */
   height: 200px;
+  padding-top: 20px;
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */
@@ -57,12 +58,22 @@ button#parama{
 }
 
 
-#menu .prisijungti > li {
-}
+/* #menu .prisijungti > li {
+} */
 
 #menu .prisijungti a {
   text-decoration: none;
+  color: black;
 }
+
+#logo {
+  font-size: 1.4;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/*burger*/
 
 
 
@@ -73,6 +84,8 @@ button#parama{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 0px;
+
   }
 
   #burger {
