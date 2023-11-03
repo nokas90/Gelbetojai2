@@ -45,10 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero > h1 {
   margin: 0;
+  font-size: 8vw;
 }
 
 .hero > h1 > span {
-  color: rgb(99, 135, 190);
+  color: rgb(84, 128, 193);
 }
 
 .hero > p {
@@ -58,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero > div {
   display: flex;
   gap: 20px;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 .hero > div > button {
@@ -91,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     background-image: url('https://images.pexels.com/photos/663573/pexels-photo-663573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
     justify-content: flex-start;
   }
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .hero > h1 {
     margin: 0;
-    font-size: 74px;
+    font-size: 5vw;
     color: white;
   }
 
@@ -139,6 +140,10 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid rgb(88, 133, 197);
     color: white;
     background-color: rgba(0, 0, 0, 0);
+  }
+
+  .hero > div > button:hover {
+    transform: scale(1.10);
   }
 
   .hero > h1 > span {
