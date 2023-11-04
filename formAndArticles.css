@@ -78,10 +78,6 @@ font-size: 0.6em;
 }
 /* straipsniu ir naujienlaiskio pabaiga*/
 @media (min-width: 768px){
-  body{
-    
-  }
-
   /* straipsniu ir naujienlaiskio pradzia*/
   #straipsniai{
     display: flex;
