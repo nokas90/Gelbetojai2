@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .text > p {
   line-height: 150%;
+  color: black;
+  text-align: left;
 }
 
 .text > h1 {
