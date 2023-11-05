@@ -2,6 +2,7 @@ import Forma from "../modules/Forma.js";
 import DeleteForm from "../modules/DeleteForm.js";
 // import { arPrisijunges } from "./admin.js";
 // console.log(arPrisijunges);
+
 let arOn = JSON.parse(sessionStorage.getItem("arPrisijunges"));
 
 if(arOn === true){
@@ -20,7 +21,6 @@ if(arOn === true){
   .then(res => res.json())
   .then(data => {
     data.forEach(e => {
-      console.log(e);
       const li = document.createElement('li');
       const liText = document.createTextNode(`Gyvūno vardas: ${e.vardas}, ID: ${e.id}`);
       li.appendChild(liText);

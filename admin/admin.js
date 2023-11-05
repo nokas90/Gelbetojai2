@@ -1,5 +1,11 @@
 let arPrisijunges = false; // Default neprisijunges
-console.log(arPrisijunges);
+
+// const CryptoJS = require("../node_modules/crypto-js");
+// const key = "admin";
+// const plainText = "Hello, world!";
+// const encrypted = CryptoJS.AES.encrypt(plainText, key);
+// console.log(encrypted);
+
 
 fetch(`http://localhost:3000/administrator`)
 .then(res => res.json())
