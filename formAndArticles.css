@@ -43,7 +43,16 @@ height: 35px;
 width: 120px;
 border: 1px solid #424242;
 font-size: 0.6em;
-
+}
+.straipsnioKortele > button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#naujienlaiskis{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #naujienlaiskis > div{
   padding: 10px 10%;
@@ -76,6 +85,9 @@ font-size: 0.6em;
   border: 2px solid black;
   font-weight: 600;
 }
+#naujienlaiskis > div > div > button:hover{
+  cursor: pointer;
+}
 .naujasNaujienlaiskioTekstas > p{
   color: grey;
   font-size: 10px;
@@ -90,14 +102,6 @@ font-size: 0.6em;
   }
   .straipsnioKortele{
     width: 44%;
-  } 
-  #naujienlaiskis{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
-  #naujienlaiskis > div{
-   width: 300px;
   }
   /* straipsniu ir naujienlaiskio pabaiga*/
 }
