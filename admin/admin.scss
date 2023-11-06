@@ -1,0 +1,51 @@
+#ikelimoForma{
+  label, input{
+    display: block;
+  }
+}
+#formosId{
+  label, input{
+    display: block;
+  }
+}
+#logIn{
+  height: 80vh;
+  width: 80vw;
+  position: relative;
+}
+.adminLogIn{
+  width: 180px;
+  height: 110px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  form{
+    input[type="submit"]{
+      border: 0;
+      margin-top: 5px;
+      background-color: rgb(6, 181, 6);
+      border-radius: 5px;
+      color: white;
+    }
+    input[type="submit"]:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+#adminMenu{
+  h1{
+    text-align: center;
+  }
+  .delNewDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: rgba(0, 0, 0, 0.042);
+  }
+}
