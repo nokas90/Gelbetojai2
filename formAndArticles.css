@@ -49,6 +49,11 @@ font-size: 0.6em;
   background-color: black;
   color: white;
 }
+#naujienlaiskis{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #naujienlaiskis > div{
   padding: 10px 10%;
 }
@@ -98,14 +103,6 @@ font-size: 0.6em;
   .straipsnioKortele{
     width: 44%;
   } 
-  #naujienlaiskis{
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
-  #naujienlaiskis > div{
-   width: 300px;
-  }
   /* straipsniu ir naujienlaiskio pabaiga*/
 }
 @media (min-width: 1024px){
