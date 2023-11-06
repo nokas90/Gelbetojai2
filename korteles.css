@@ -78,9 +78,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   height: 35px;
   width: 120px;
+  background-color: #F0F0F0;
   border: 1px solid #424242;
 }
-#korteles #more :hover {
+#korteles #more:hover {
   cursor: pointer;
   background-color: black;
   color: white;
