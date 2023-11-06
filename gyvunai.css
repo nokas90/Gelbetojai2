@@ -238,3 +238,10 @@ button#parama{
     display: initial;
   }
 }
+footer{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 20px;
+  border-top: 1px solid grey;
+}
