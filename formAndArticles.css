@@ -43,7 +43,11 @@ height: 35px;
 width: 120px;
 border: 1px solid #424242;
 font-size: 0.6em;
-
+}
+.straipsnioKortele > button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 #naujienlaiskis > div{
   padding: 10px 10%;
