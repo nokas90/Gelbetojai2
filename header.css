@@ -1,6 +1,6 @@
 header {
   
-  height: 70px;
+  height: 50px;
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: center; */
@@ -50,6 +50,19 @@ button#parama{
   text-decoration: none;
 }
 
+#logo {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color:black
+}
+
+.prisijungti > ul > li > a {
+  color: black;
+}
+
+#burger {
+  font-size: 25px;
+}
 
 
 
