@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
-.hero > h1, p {
+.hero > h1, .hero > p {
   text-align: center;
   color: white;
   z-index: 1;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 25px;
   }
 
-  .hero > h1, p {
+  .hero > h1, .hero > p {
     text-align:left;
     color: white;
     z-index: none;
