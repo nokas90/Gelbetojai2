@@ -80,6 +80,9 @@ font-size: 0.6em;
   border: 2px solid black;
   font-weight: 600;
 }
+#naujienlaiskis > div > div > button:hover{
+  cursor: pointer;
+}
 .naujasNaujienlaiskioTekstas > p{
   color: grey;
   font-size: 10px;
