@@ -6,23 +6,100 @@
   <title>Gelbetojai</title>
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./aboutUs.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="./hero.css">
+  <link rel="stylesheet" href="./formAndArticles.css">
+  <link rel="stylesheet" href="korteles.css">
   <script type="module" src="main.js"></script>
+  <script type="module" src="korteles.js"></script>
 </head>
 <body>
   <header>
-    
+    <nav id="menu">
+      <div id="burger"><i class="bi bi-list"></i>
+      </div>
+      <div id="logo"><span>Logo<br>Šuniuko</span></div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Beglobiai</a></li>
+          <li><a href="#">Parama</a></li>
+          <li><a href="#">Parama 1,2%GPM</a></li>
+          <li><a href="#">Prieglauda</a></li>
+          <li><a href="#">Irasai</a></li>
+          <li><a href="#">Kontaktai</a></li>
+          <li><a href="#">E-Shop</a></li>
+        </ul>
+      </div>
+      <div class="prisijungti">
+        <ul>
+          <li><a href="#">Prisijungti</a></li>
+          <li><a href="#"><i class="bi bi-search"></i></a></li>
+          <li><a href="#"><i class="bi bi-cart2"></i></a></li>
+          <li><a href="#"><i class="bi bi-1-circle-fill"></i></a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <main>
     <section id="hero">
-
+      <div class="hero">
+        <h1>Mums reikia<br> <span>Tavo</span> palaikymo!</h1>
+        <p>"Gelbėtojai" globos namai kviečia<br> aukoti ir
+        suteikti naujus namus<br> beglobiams gyvūnams.</p>
+        <div>
+          <button>Paaukoti</button>
+          <button>Prisijungti</button>
+        </div>
+      </div>
+    </section>
+    <section id="aboutUs">
+      <div class="aboutUs2">
+        <div class="text">
+          <h1>Apie <span>Mus</span></h1>
+          <p>"Gelbėtojai" misija ir pagrindinis tikslas - teikti <br> visapusišką 
+          pagalbą beglobiams ir benamiams<br> gyvūnams: užtikrinti 
+          veterinarinę priežiūrą, <br> aprūpinimą maistu bei
+          prieglobsčiu, kol bus <br> surasti nauji šeimininkai.</p>
+          <p>
+          Nuo veiklos pradžios 2008-aisiais jau išgelbėjome<br>
+          daugiau nei 8000 gyvūnų, įkūrėme priglaudą,<br> kurioje 
+          nuolat rūpinamės daugiau nei 140 gyvūnų.
+          </p>
+          <p>
+          Savo veikloje siekiame mažinti beglobių gyvūnų<br> skaičių,
+          skatiname visuomenę tinkamai rūpintis savo <br>
+          augintiniais, gelbėjame, gydome ir rūpinamės namų <br>
+          netekusiais gyvūnais, aktyviai ieškome <br>
+          jiems saugių ir mylinčių namų.
+          </p>
+        </div>
+        <div class="image">
+          <img src="https://images.pexels.com/photos/1904106/pexels-photo-1904106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="laimingas šuo">
+        </div>
+      </div>
     </section>
     <section id="korteles">
-
+      <div class="heading">
+        <h1>Priglauskite beglobius gyvūnus ir suteikite jiems antrą šansą</h1>
+      </div>
+      <div class="cards"></div>
+      <div id="more">
+        <span><h1>ŽIŪRĖTI DAUGIAU</h1></span>
+      </div>
     </section>
     <section id="straipsniai">
 
     </section>
     <section id="naujienlaiskis">
+      <div>
+        <h2>Naujienlaiškio prenumerata</h2>
+        <p>Tik svarbiausios naujienos į el.paštą. Sužinokite viską pirmieji:)</p>
+        <div>
+          <input type="text" placeholder="El.paštas">
+          <button id="naujienlaiskioMygtukas">Siųsti</button>
+        </div>
+      </div>
 
     </section>
   </main>
